@@ -104,9 +104,8 @@ def main():
             fps       = 30.0 / max(time.time() - fps_timer, 1e-6)
             fps_timer = time.time()
 
-        # ==============================================================
-        # 1. PERSON DETECTION
-        # ==============================================================
+      # 1. PERSON DETECTION
+     
         detections           = detector.detect_persons(frame)
         counts['total']      = len(detections)
         counts['male']       = 0
@@ -176,9 +175,8 @@ def main():
                 )
                 obj_thread.start()
 
-        # ==============================================================
-        # 2. FACE RECOGNITION
-        # ==============================================================
+    # 2. FACE RECOGNITION
+        
         if frame_no % FACE_DETECT_INTERVAL == 0:
             last_faces = recognizer.recognize(frame)
 
@@ -208,9 +206,9 @@ def main():
                 save_alert(alert_type='thief', person_name=name,
                            image_path=img_path, camera_id='CAM_01')
 
-        # ==============================================================
-        # 3. TRAILS + HUD + DISPLAY
-        # ==============================================================
+ 
+    # 3. TRAILS + HUD + DISPLAY
+     
         frame = tracker.draw_trails(frame)
 
         hud.set_thief_alert(
