@@ -47,11 +47,9 @@ $ pip install deepface
 
 Alternatively, you can also install deepface from its source code. Source code may have new features not published in pip release yet.
 
-
 $ git clone https://github.com/serengil/deepface.git
 $ cd deepface
 $ pip install -e .
-
 
 Once you installed the library, then you will be able to import it and use its functionalities.
 
@@ -308,7 +306,6 @@ DeepFace serves an API as well - see [`api folder`](https://github.com/serengil/
 ```shell
 cd scripts && ./service.sh
 ```
-
 Alternatively, you can run the dockerized service.
 
 ```shell
@@ -431,7 +428,8 @@ Please cite deepface in your publications if it helps your research. Here is its
 
 Also, if you use deepface in your GitHub projects, please add `deepface` in the `requirements.txt`.
 
-Main part
+# Main part
+
 ## Licence
 
 DeepFace is licensed under the MIT License - see [`LICENSE`](https://github.com/serengil/deepface/blob/master/LICENSE) for more details.
