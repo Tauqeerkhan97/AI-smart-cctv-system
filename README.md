@@ -25,9 +25,6 @@
 
 <div align="center">
   <a href="https://deepface.dev?source=deepface_repo" target="_blank"><img src="https://img.shields.io/badge/Hosted-deepface.dev-00BFFF?style=flat&labelColor=555555" alt="Hosted | deepface.dev"/></a>
-</div>
-
-</div>
 
 <p align="center"><img src="https://raw.githubusercontent.com/serengil/deepface/master/icon/deepface-icon-labeled.png" width="200" height="240"></p>
 
