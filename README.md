@@ -1,4 +1,4 @@
-# deepface
+# deepFace
 
 <div align="center">
 
@@ -40,7 +40,6 @@ The easiest way to install deepface is to download it from [`PyPI`](https://pypi
 
 
 $ pip install deepface
-
 
 Alternatively, you can also install deepface from its source code. Source code may have new features not published in pip release yet.
 
@@ -405,6 +404,7 @@ If you do like this work, then you can support it financially on [Patreon](https
 </a>
 
 ## Citation
+
 
 Please cite deepface in your publications if it helps your research. Here is its BibTex entry:
 
