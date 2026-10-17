@@ -14,5 +14,3 @@ logs/
 *.log
 yolov8n.pt
 *.db
-.example_env
-.html
