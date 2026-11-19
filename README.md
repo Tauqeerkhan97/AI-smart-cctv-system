@@ -1,4 +1,4 @@
-# deepFace
+# DeepFace Project
 
 <div align="center">
 
