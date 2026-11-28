@@ -14,10 +14,3 @@ logs/
 *.log
 yolov8n.pt
 *.db
-*monodb
-react
-npm
-node
-markdown
-markdown pdf 
-.envexample
